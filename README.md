@@ -1,5 +1,5 @@
 # Modular Adaptive Policy Selection for Multi-Task Imitation Learning through Task Division
-Python 3.x implementation of the MAPS system.
+Python 3.x implementation of the MAPS system presented in the ICRA 2022 paper [Modular Adaptive Policy Selection for Multi-Task Imitation Learning through Task Division](https://arxiv.org/abs/2203.14855).
 
 ## Requirements
 * python 3.6
