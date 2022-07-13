@@ -52,3 +52,6 @@ For example, to render the result of task 'push' using only module 6, go to the 
 python3 evaluate_module.py --dataset data/tasks_10_traj_20_onehot.npz --env_id push-v2 --module 5 --load_model_path checkpoint/tasks_10_traj_20_short_onehot-10_15_3layer_32bs_1.0_0.1_0.5_1.0_0.75/1/30000 --render
 ```
 Note: the modules in evaluate_module.py are zero-indexed.
+
+## MT10 Dataset
+The dataset for the MT10 task set can be found in the "maps/data" directory. It contains 20 trajectories performed by a human expert for each of the 10 tasks. The task ids for the trajectories are presented in a one-hot vector.
